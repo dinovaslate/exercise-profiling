@@ -35,3 +35,5 @@ tools/
 *.log
 *.jfr
 *.hprof
+logs/
+jmeter/reports/
