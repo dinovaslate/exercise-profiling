@@ -95,12 +95,26 @@ Profiling evidence is stored under `profiling/` as JFR summaries and execution-s
 | `/highest-gpa` | Full table fetch before in-memory scan | `findStudentWithHighestGpa()` reads the entire `students` table with `findAll()` even though the endpoint only needs one row. | `profiling/highest-gpa-summary.txt`, `profiling/highest-gpa-hotspots.txt`, `profiling/findings.md` |
 | `/all-student-name` | Repeated string allocation in request thread | `joinStudentNames()` performs repeated immutable string concatenation, and JFR shows `StringConcatHelper` dominating sampled request stacks. | `profiling/all-student-name-summary.txt`, `profiling/all-student-name-hotspots.txt`, `profiling/findings.md` |
 
+## Optimization Changes
+
+### `/all-student`
+
+- Initial problem: `StudentService.getAllStudentsWithCourses()` loaded all students first, then queried student-course rows once per student, causing an N+1 pattern and unnecessary object recreation.
+- Change: added `StudentCourseRepository.findAllWithStudentAndCourse()` with `join fetch` for both `student` and `course`, then returned that list directly from the service.
+- Reason: the endpoint only needs the final student-course list, so one joined query is cheaper than one query per student and avoids rebuilding `StudentCourse` objects in Java.
+- Result:
+  - Before average response time: `40091.67 ms`
+  - After average response time: `257.67 ms`
+  - Improvement: `99.36%`
+  - Throughput before/after: `0.05 req/s` -> `5.77 req/s`
+  - Evidence: `jmeter/results/before-all-student-summary.json`, `jmeter/results/after-all-student-summary.json`
+
 ## Progress
 
 - [x] Setup project and PostgreSQL configuration
 - [x] Add JMeter baseline
 - [x] Record profiling findings
-- [ ] Optimize `/all-student`
+- [x] Optimize `/all-student`
 - [ ] Optimize `/highest-gpa`
 - [ ] Optimize `/all-student-name`
 - [ ] Document comparison and reflection
