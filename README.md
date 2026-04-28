@@ -196,6 +196,7 @@ This screenshot is a representative post-optimization dashboard. Raw after-optim
 | `milestone-5-optimize-highest-gpa` | `#5` | `[Refactoring] - Optimize highest GPA endpoint` |
 | `milestone-6-optimize-all-student-name` | `#6` | `[Refactoring] - Optimize all student name endpoint` |
 | `milestone-7-readme-reflection` | `#7` | `[Docs] - Add performance comparison and reflection` |
+| `milestone-8-readme-screenshots` | `#8` | `[Docs] - Add screenshot evidence to README` |
 
 ## Progress
 
@@ -206,3 +207,4 @@ This screenshot is a representative post-optimization dashboard. Raw after-optim
 - [x] Optimize `/highest-gpa`
 - [x] Optimize `/all-student-name`
 - [x] Document comparison and reflection
+- [x] Add screenshot evidence to README
