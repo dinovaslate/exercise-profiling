@@ -1,0 +1,10 @@
+{
+    "result_file":  "C:\\Users\\Natasya\\RustroverProjects\\untitled2\\exercise-profiling\\jmeter\\results\\before-all-student.jtl",
+    "sample_count":  6,
+    "average_ms":  40091.67,
+    "min_ms":  39241,
+    "max_ms":  41118,
+    "p95_ms":  41118,
+    "throughput_rps":  0.05,
+    "error_rate_percent":  0
+}
