@@ -85,11 +85,21 @@ Baseline result before optimization:
 | `/highest-gpa` | 34.59 | 76.80 | 0% | `jmeter/results/before-highest-gpa.jtl`, `jmeter/results/before-highest-gpa-summary.json` |
 | `/all-student` | 40091.67 | 0.05 | 0% | `jmeter/results/before-all-student.jtl`, `jmeter/results/before-all-student-summary.json` |
 
+## Profiling Findings
+
+Profiling evidence is stored under `profiling/` as JFR summaries and execution-sample dumps that can be reviewed without the IntelliJ UI.
+
+| Endpoint | Primary hotspot | Finding | Evidence |
+| --- | --- | --- | --- |
+| `/all-student` | Hibernate JDBC execution and repeated repository access | `getAllStudentsWithCourses()` loads all students, then calls `findByStudentId()` once per student, which creates an N+1 query pattern and additional object copying. | `profiling/all-student-summary.txt`, `profiling/all-student-hotspots.txt`, `profiling/findings.md` |
+| `/highest-gpa` | Full table fetch before in-memory scan | `findStudentWithHighestGpa()` reads the entire `students` table with `findAll()` even though the endpoint only needs one row. | `profiling/highest-gpa-summary.txt`, `profiling/highest-gpa-hotspots.txt`, `profiling/findings.md` |
+| `/all-student-name` | Repeated string allocation in request thread | `joinStudentNames()` performs repeated immutable string concatenation, and JFR shows `StringConcatHelper` dominating sampled request stacks. | `profiling/all-student-name-summary.txt`, `profiling/all-student-name-hotspots.txt`, `profiling/findings.md` |
+
 ## Progress
 
 - [x] Setup project and PostgreSQL configuration
 - [x] Add JMeter baseline
-- [ ] Record profiling findings
+- [x] Record profiling findings
 - [ ] Optimize `/all-student`
 - [ ] Optimize `/highest-gpa`
 - [ ] Optimize `/all-student-name`

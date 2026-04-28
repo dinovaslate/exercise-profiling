@@ -37,3 +37,4 @@ tools/
 *.hprof
 logs/
 jmeter/reports/
+profiling/*-execution.txt
