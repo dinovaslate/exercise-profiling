@@ -69,6 +69,20 @@ Additional baseline for `/all-student`:
 
 The CLI runner also generates an HTML dashboard under `jmeter/reports/`, but that folder is treated as local generated output and is not committed.
 
+Representative screenshots are committed under `docs/screenshots/` so the README still contains visual evidence even when local JMeter dashboards are regenerated.
+
+### Screenshot Evidence
+
+JMeter GUI test plan for `/all-student-name`:
+
+<img src="docs/screenshots/jmeter-test-plan-all-student-name.png" alt="JMeter GUI test plan for all-student-name" width="960">
+
+JMeter CLI execution snapshot for `/highest-gpa`:
+
+<img src="docs/screenshots/jmeter-cli-highest-gpa.png" alt="JMeter CLI execution snapshot for highest-gpa" width="960">
+
+The CLI image above is rendered from the exact PowerShell output of the JMeter run so the command and summary remain readable in the repository.
+
 ## Baseline Performance Result
 
 Seeded dataset:
@@ -84,6 +98,12 @@ Baseline result before optimization:
 | `/all-student-name` | 6845.91 | 2.81 | 0% | `jmeter/results/before-all-student-name.jtl`, `jmeter/results/before-all-student-name-summary.json` |
 | `/highest-gpa` | 34.59 | 76.80 | 0% | `jmeter/results/before-highest-gpa.jtl`, `jmeter/results/before-highest-gpa-summary.json` |
 | `/all-student` | 40091.67 | 0.05 | 0% | `jmeter/results/before-all-student.jtl`, `jmeter/results/before-all-student-summary.json` |
+
+Baseline dashboard screenshot for `/all-student-name`:
+
+<img src="docs/screenshots/before-all-student-name-dashboard.png" alt="Baseline JMeter dashboard for all-student-name" width="960">
+
+This screenshot is a representative baseline dashboard. Raw baseline files for all measured endpoints remain listed in the table above.
 
 ## Profiling Findings
 
@@ -141,6 +161,12 @@ Profiling evidence is stored under `profiling/` as JFR summaries and execution-s
 | `/highest-gpa` | 4.03 | 84.78 | 0% | `jmeter/results/after-highest-gpa.jtl`, `jmeter/results/after-highest-gpa-summary.json` |
 | `/all-student-name` | 8.96 | 82.66 | 0% | `jmeter/results/after-all-student-name.jtl`, `jmeter/results/after-all-student-name-summary.json` |
 
+Re-measurement dashboard screenshot after optimization for `/all-student-name`:
+
+<img src="docs/screenshots/after-all-student-name-dashboard.png" alt="JMeter dashboard after optimization for all-student-name" width="960">
+
+This screenshot is a representative post-optimization dashboard. Raw after-optimization files for all measured endpoints remain listed in the table above.
+
 ## Before vs After Comparison
 
 | Endpoint | Before avg (ms) | After avg (ms) | Improvement | Throughput before | Throughput after | Conclusion |
@@ -170,6 +196,7 @@ Profiling evidence is stored under `profiling/` as JFR summaries and execution-s
 | `milestone-5-optimize-highest-gpa` | `#5` | `[Refactoring] - Optimize highest GPA endpoint` |
 | `milestone-6-optimize-all-student-name` | `#6` | `[Refactoring] - Optimize all student name endpoint` |
 | `milestone-7-readme-reflection` | `#7` | `[Docs] - Add performance comparison and reflection` |
+| `milestone-8-readme-screenshots` | `#8` | `[Docs] - Add screenshot evidence to README` |
 
 ## Progress
 
@@ -180,3 +207,4 @@ Profiling evidence is stored under `profiling/` as JFR summaries and execution-s
 - [x] Optimize `/highest-gpa`
 - [x] Optimize `/all-student-name`
 - [x] Document comparison and reflection
+- [x] Add screenshot evidence to README
