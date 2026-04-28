@@ -29,6 +29,9 @@ $testPlanPath = Join-Path $repoRoot $TestPlan
 
 New-Item -ItemType Directory -Force -Path (Split-Path -Parent $resultPath) | Out-Null
 New-Item -ItemType Directory -Force -Path (Split-Path -Parent $reportPath) | Out-Null
+if (Test-Path $resultPath) {
+    Remove-Item $resultPath -Force
+}
 if (Test-Path $reportPath) {
     Remove-Item $reportPath -Recurse -Force
 }

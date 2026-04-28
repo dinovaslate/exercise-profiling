@@ -1,10 +1,10 @@
 {
     "result_file":  "C:\\Users\\Natasya\\RustroverProjects\\untitled2\\exercise-profiling\\jmeter\\results\\after-highest-gpa.jtl",
     "sample_count":  400,
-    "average_ms":  4.04,
-    "min_ms":  3,
+    "average_ms":  4.03,
+    "min_ms":  2,
     "max_ms":  35,
-    "p95_ms":  5,
-    "throughput_rps":  84.48,
+    "p95_ms":  7,
+    "throughput_rps":  84.78,
     "error_rate_percent":  0
 }
