@@ -1,0 +1,31 @@
+﻿    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(String, JdbcOperationQuerySelect, boolean, ExecutionContext, ResultSetAccess) line: 339
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 115
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, ListResultsConsumer$UniqueSemantic) line: 76
+    org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, ListResultsConsumer$UniqueSemantic) line: 65
+    org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$2(String, ListResultsConsumer$UniqueSemantic, DomainParameterXref, Void, DomainQueryExecutionContext, ConcreteSqmSelectQueryPlan$CacheableSqmInterpretation, JdbcParameterBindings) line: 137
+    org.hibernate.query.sqm.internal.QuerySqmImpl.doList() line: 509
+    org.hibernate.query.sqm.internal.QuerySqmImpl.<init>(SqmStatement, Class, SharedSessionContractImplementor) line: 236
+    org.hibernate.sql.results.spi.ListResultsConsumer.consume(JdbcValues, SharedSessionContractImplementor, JdbcValuesSourceProcessingOptions, JdbcValuesSourceProcessingStateStandardImpl, RowProcessingStateStandardImpl, RowReader) line: 204
+    org.hibernate.sql.results.spi.ListResultsConsumer.consume(JdbcValues, SharedSessionContractImplementor, JdbcValuesSourceProcessingOptions, JdbcValuesSourceProcessingStateStandardImpl, RowProcessingStateStandardImpl, RowReader) line: 33
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 109
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, ListResultsConsumer$UniqueSemantic) line: 76
+    org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, ListResultsConsumer$UniqueSemantic) line: 65
+    org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$2(String, ListResultsConsumer$UniqueSemantic, DomainParameterXref, Void, DomainQueryExecutionContext, ConcreteSqmSelectQueryPlan$CacheableSqmInterpretation, JdbcParameterBindings) line: 137
+    org.hibernate.query.sqm.internal.QuerySqmImpl.doList() line: 509
+    org.hibernate.internal.SessionImpl.closeWithoutOpenChecks() line: 429
+    org.hibernate.internal.SessionImpl.close() line: 411
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(String, JdbcOperationQuerySelect, boolean, ExecutionContext, ResultSetAccess) line: 339
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 115
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, ListResultsConsumer$UniqueSemantic) line: 76
+    org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, ListResultsConsumer$UniqueSemantic) line: 65
+    org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$2(String, ListResultsConsumer$UniqueSemantic, DomainParameterXref, Void, DomainQueryExecutionContext, ConcreteSqmSelectQueryPlan$CacheableSqmInterpretation, JdbcParameterBindings) line: 137
+    org.hibernate.query.sqm.internal.QuerySqmImpl.doList() line: 509
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 188
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, ListResultsConsumer$UniqueSemantic) line: 76
+    org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, ListResultsConsumer$UniqueSemantic) line: 65
+    org.hibernate.internal.SessionImpl.closeWithoutOpenChecks() line: 429
+    org.hibernate.internal.SessionImpl.close() line: 411

@@ -1,0 +1,80 @@
+﻿    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    com.advpro.profiling.tutorial.service.StudentService.findStudentWithHighestGpa() line: 45
+    com.advpro.profiling.tutorial.controller.StudentController.highestGpa() line: 32
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    com.advpro.profiling.tutorial.service.StudentService.findStudentWithHighestGpa() line: 45
+    com.advpro.profiling.tutorial.controller.StudentController.highestGpa() line: 32
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    com.advpro.profiling.tutorial.service.StudentService.findStudentWithHighestGpa() line: 45
+    com.advpro.profiling.tutorial.controller.StudentController.highestGpa() line: 32
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    com.advpro.profiling.tutorial.service.StudentService.findStudentWithHighestGpa() line: 45
+    com.advpro.profiling.tutorial.controller.StudentController.highestGpa() line: 32
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    com.advpro.profiling.tutorial.service.StudentService.findStudentWithHighestGpa() line: 45
+    com.advpro.profiling.tutorial.controller.StudentController.highestGpa() line: 32
+    com.advpro.profiling.tutorial.service.StudentService.findStudentWithHighestGpa() line: 45
+    com.advpro.profiling.tutorial.controller.StudentController.highestGpa() line: 32
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 83
+    org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcOperationQuerySelect, JdbcParameterBindings, ExecutionContext, RowTransformer, Class, Function, ResultsConsumer) line: 209
