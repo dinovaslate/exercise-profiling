@@ -121,6 +121,18 @@ Profiling evidence is stored under `profiling/` as JFR summaries and execution-s
   - Throughput before/after: `76.80 req/s` -> `84.48 req/s`
   - Evidence: `jmeter/results/before-highest-gpa-summary.json`, `jmeter/results/after-highest-gpa-summary.json`
 
+### `/all-student-name`
+
+- Initial problem: `joinStudentNames()` loaded full `Student` entities and built the response with repeated `result += ...` concatenation.
+- Change: added `StudentRepository.findAllNamesOrderById()` to fetch only the `name` column, then joined the names with `String.join(", ", ...)`.
+- Reason: the endpoint only needs student names, so there is no value in hydrating entire entities or reallocating the whole response string on every loop iteration.
+- Result:
+  - Before average response time: `6845.91 ms`
+  - After average response time: `12.26 ms`
+  - Improvement: `99.82%`
+  - Throughput before/after: `2.81 req/s` -> `83.00 req/s`
+  - Evidence: `jmeter/results/before-all-student-name-summary.json`, `jmeter/results/after-all-student-name-summary.json`
+
 ## Progress
 
 - [x] Setup project and PostgreSQL configuration
@@ -128,5 +140,5 @@ Profiling evidence is stored under `profiling/` as JFR summaries and execution-s
 - [x] Record profiling findings
 - [x] Optimize `/all-student`
 - [x] Optimize `/highest-gpa`
-- [ ] Optimize `/all-student-name`
+- [x] Optimize `/all-student-name`
 - [ ] Document comparison and reflection
