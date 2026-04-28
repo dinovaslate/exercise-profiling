@@ -109,12 +109,24 @@ Profiling evidence is stored under `profiling/` as JFR summaries and execution-s
   - Throughput before/after: `0.05 req/s` -> `5.77 req/s`
   - Evidence: `jmeter/results/before-all-student-summary.json`, `jmeter/results/after-all-student-summary.json`
 
+### `/highest-gpa`
+
+- Initial problem: `findStudentWithHighestGpa()` fetched the entire `students` table and searched the maximum GPA in application memory.
+- Change: added `StudentRepository.findFirstByOrderByGpaDescIdAsc()` and returned it directly from the service.
+- Reason: the endpoint only needs one row, so sorting and limiting should happen in the database where the data already lives.
+- Result:
+  - Before average response time: `34.59 ms`
+  - After average response time: `4.04 ms`
+  - Improvement: `88.32%`
+  - Throughput before/after: `76.80 req/s` -> `84.48 req/s`
+  - Evidence: `jmeter/results/before-highest-gpa-summary.json`, `jmeter/results/after-highest-gpa-summary.json`
+
 ## Progress
 
 - [x] Setup project and PostgreSQL configuration
 - [x] Add JMeter baseline
 - [x] Record profiling findings
 - [x] Optimize `/all-student`
-- [ ] Optimize `/highest-gpa`
+- [x] Optimize `/highest-gpa`
 - [ ] Optimize `/all-student-name`
 - [ ] Document comparison and reflection
